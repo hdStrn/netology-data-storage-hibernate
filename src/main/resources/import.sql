@@ -3,3 +3,6 @@ INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_
 INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_living) VALUES ('Aleksandr', 'Pushkin', 26, null, 'Moscow');
 INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_living) VALUES ('Danila', 'Bogrov', 21, '+71110004455', 'St.Petersburg');
 INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_living) VALUES ('Lev', 'Tolstoy', 82, null, 'Tula');
+INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_living) VALUES ('Nikolai', 'Gogol', 42, null, 'Moscow');
+INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_living) VALUES ('Maksim', 'Gorkiy', 68, null, 'Nijniy Novgorod');
+INSERT INTO netology_hibernate.person(name, surname, age, phone_number, city_of_living) VALUES ('Anton', 'Chekhov', 44, null, 'Taganrog');
