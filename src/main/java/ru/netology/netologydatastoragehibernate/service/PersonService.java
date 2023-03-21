@@ -19,5 +19,5 @@ public interface PersonService {
 
     List<Person> findAllByAgeLess(Integer age);
 
-    Person findAllByNameAndSurname(String name, String surname);
+    Person findByNameAndSurname(String name, String surname);
 }

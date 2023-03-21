@@ -47,8 +47,8 @@ public class PersonServiceImpl implements PersonService {
     }
 
     @Override
-    public Person findAllByNameAndSurname(String name, String surname) {
-        return personDao.findAllByPersonalData_NameAndPersonalData_Surname(name, surname)
+    public Person findByNameAndSurname(String name, String surname) {
+        return personDao.findByPersonalData_NameAndPersonalData_Surname(name, surname)
                 .orElse(null);
     }
 }

@@ -59,6 +59,6 @@ public class PersonController {
     @GetMapping("/by-name-and-surname")
     @ResponseStatus(code = HttpStatus.OK)
     public Person getPersonsByNameAndSurname(@RequestParam String name, @RequestParam String surname) {
-        return personService.findAllByNameAndSurname(name, surname);
+        return personService.findByNameAndSurname(name, surname);
     }
 }
